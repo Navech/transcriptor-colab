@@ -8,17 +8,41 @@ Permite usar archivos desde una carpeta de Google Drive o subir archivos directa
 
 - `Transcriptor_10_colab_limpio.ipynb`: notebook principal para abrir y ejecutar en Google Colab.
 
-## Como usarlo en Google Colab
+## Como descargar el notebook desde GitHub
 
-1. Descarga o abre el archivo `Transcriptor_10_colab_limpio.ipynb` en Google Colab.
-2. Conectate a un entorno de ejecucion.
-3. En Colab, entra a `Entorno de ejecucion` > `Cambiar tipo de entorno de ejecucion`.
-4. Configura:
+1. Entra al repositorio:
+
+   ```text
+   https://github.com/Navech/transcriptor-colab
+   ```
+
+2. Haz click en el archivo `Transcriptor_10_colab_limpio.ipynb`.
+3. Descarga el archivo a tu computador.
+   - Puedes usar el boton de descarga de GitHub.
+   - Si no aparece, puedes entrar a `Raw` y guardar el archivo desde el navegador.
+
+## Como importarlo a Google Colab
+
+1. Abre Google Colab:
+
+   ```text
+   https://colab.research.google.com
+   ```
+
+2. En Colab, entra a `Archivo` > `Subir notebook`.
+3. Selecciona el archivo `Transcriptor_10_colab_limpio.ipynb` que descargaste desde GitHub.
+4. Espera a que el notebook se abra en Colab.
+
+## Como configurarlo y ejecutarlo en Google Colab
+
+1. Conectate a un entorno de ejecucion.
+2. En Colab, entra a `Entorno de ejecucion` > `Cambiar tipo de entorno de ejecucion`.
+3. Configura:
    - Tipo de entorno de ejecucion: `Python 3`
    - Acelerador por hardware: `GPU T4`
-5. Guarda la configuracion.
-6. Ejecuta el notebook con `Ejecutar todas las celdas` o ejecuta la celda principal manualmente.
-7. Sigue las preguntas que aparecen en pantalla.
+4. Guarda la configuracion.
+5. Ejecuta el notebook con `Ejecutar todas las celdas` o ejecuta la celda principal manualmente.
+6. Sigue las preguntas que aparecen en pantalla.
 
 Con esa configuracion deberia funcionar correctamente.
 
