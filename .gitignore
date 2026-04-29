@@ -3,3 +3,6 @@ Transcriptor_10.ipynb
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# Guia local no publicada
+Guia_uso_transcriptor_colab.docx
